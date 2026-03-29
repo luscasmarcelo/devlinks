@@ -82,10 +82,30 @@ footer {
     margin-bottom: 12px;
     text-align: center;
     font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.link-card:hover {
+    background-color: var(--cor-destaque);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    border-color: var(--cor-destaque);
 }
 
 .perfil__foto {
     border: 4px solid var(--cor-borda);
     width: 150px;
     height: 150px;
+    transition: transform 0.3s ease;
+    border: 3px solid var(--cor-destaque);
+}
+
+.perfil__foto:hover {
+    transform: scale(1.05);
+}
+
+.link-card i {
+    margin-right: 12px;
+    font-size: 18px;
 }
