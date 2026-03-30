@@ -62,6 +62,40 @@ footer {
     margin: 0 auto;
 }
 
+.projetos {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 60px;
+}
+
+.projetos__titulo {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--cor-subtitulo);
+}
+
+.projetos__grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+.projeto-card {
+    background-color: var(--cor-card);
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio-borda);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.projeto-card:hover {
+    transform: translateY(-4px);
+}
+
 .links__titulo {
     text-align: center;
     margin-bottom: 24px;
