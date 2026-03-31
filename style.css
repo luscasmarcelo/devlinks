@@ -143,3 +143,27 @@ footer {
     margin-right: 12px;
     font-size: 18px;
 }
+
+@media (max-width: 768px) {
+    .projetos__grade {
+        grid-template-columns: repeat (2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 24px 16px;
+    }
+
+    .projetos__grade {
+        grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }   
+
+    .link-card {
+        padding: 14px 20px;
+    }
+}
