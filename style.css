@@ -19,6 +19,34 @@
 
 }
 
+html.tema-claro {
+    --cor-fundo: #f0f2f5;
+    --cor-card: #ffffff;
+    --cor-texto: #1a1a2e;
+    --cor-subtitulo: #7f8c8d;
+    --cor-destaque: #e94560;
+    --cor-borda: #00000015;
+
+}
+
+.btn-tema {
+    background: transparent;
+    border: 1px solid var(--cor-borda);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 16px;
+    transition: transform 0.3s ease;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+.btn-tema:hover {
+    transform: rotate(20deg) scale(1.1);
+}
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
