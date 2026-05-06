@@ -61,10 +61,10 @@ html.tema-claro {
     animation: fadeInUp 0.5s ease forwards;
 }
 
-.link-card:nth-of-type(1) { animation: fadeInUp 0.4s ease 0.1s both; }
-.link-card:nth-of-type(2) { animation: fadeInUp 0.4s ease 0.2s both; }
-.link-card:nth-of-type(3) { animation: fadeInUp 0.4s ease 0.3s both; }
-.link-card:nth-of-type(4) { animation: fadeInUp 0.4s ease 0.4s both; }
+.links__card:nth-of-type(1) { animation: fadeInUp 0.4s ease 0.1s both; }
+.links__card:nth-of-type(2) { animation: fadeInUp 0.4s ease 0.2s both; }
+.links__card:nth-of-type(3) { animation: fadeInUp 0.4s ease 0.3s both; }
+.links__card:nth-of-type(4) { animation: fadeInUp 0.4s ease 0.4s both; }
 
 /* ===== LAYOUT BASE ===== */
 body {
@@ -170,7 +170,7 @@ header p {
     color: var(--cor-subtitulo);
 }
 
-.link-card {
+.links__card {
     display: block;
     text-decoration: none;
     color: var(--cor-texto);
@@ -186,14 +186,14 @@ header p {
     cursor: pointer;
 }
 
-.link-card:hover {
+.links__card:hover {
     background-color: var(--cor-destaque);
     transform: translateY(-3px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
     border-color: var(--cor-destaque);
 }
 
-.link-card i {
+.links__card i {
     margin-right: 12px;
     font-size: 18px;
 }
@@ -211,7 +211,7 @@ header p {
     gap: 16px;
 }
 
-.projeto-card {
+.projetos__card {
     background-color: var(--cor-card);
     border: 1px solid var(--cor-borda);
     border-radius: var(--raio-borda);
@@ -220,19 +220,19 @@ header p {
     transition: transform 0.2s ease;
 }
 
-.projeto-card h3 {
+.projetos__card h3 {
     font-size: var(--texto-lg);
     font-weight: var(--peso-bold);
     margin-bottom: 8px;
 }
 
-.projeto-card p {
+.projetos__card p {
     font-size: var(--texto-sm);
     color: var(--cor-subtitulo);
     line-height: 1.6;
 }
 
-.projeto-card:hover {
+.projetos__card:hover {
     transform: translateY(-4px);
 }
 
@@ -243,11 +243,11 @@ header p {
     margin-top: 60px;
 }
 
-.campo {
+.contato__campo {
     margin-bottom: 16px;
 }
 
-.campo label {
+.contato__campo label {
     display: block;
     margin-bottom: 6px;
     font-size: var(--texto-sm);
@@ -255,7 +255,7 @@ header p {
     color: var(--cor-subtitulo);
 }
 
-.campo input, .campo textarea {
+.contato__campo input, .contato__campo textarea {
     width: 100%;
     padding: 12px 16px;
     background-color: var(--cor-card);
@@ -267,7 +267,7 @@ header p {
     transition: border-color 0.2s ease;
 }
 
-.campo input:focus, .campo textarea:focus {
+.contato__campo input:focus, .contato__campo textarea:focus {
     outline: none;
     border-color: var(--cor-destaque);
     box-shadow: 0 0 0 3px rgba(233, 69, 96,0.2);
