@@ -314,4 +314,8 @@ button[type="submit"]:hover {
         padding: 14px 20px;
     }
 }
+
+page__404 {
+    text-align: center;
+}
     
