@@ -315,12 +315,14 @@ button[type="submit"]:hover {
     }
 }
 
-page__404 {
+.page__404 {
     text-align: center;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    color: #333;
 }
     
