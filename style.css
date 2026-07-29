@@ -205,6 +205,10 @@ header p {
     margin-top: 60px;
 }
 
+.projetos__titulo {
+    margin-bottom: 20px;
+}
+
 .projetos__grade {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
