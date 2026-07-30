@@ -33,3 +33,15 @@ const linksIniciais = [
     icone: "fas-fa-code",
 },
 ];
+
+const gerarId = () => Date.now().toString();
+const urlValida = (url) => {
+    try {
+        new URL(url);
+        return true;
+        } catch {
+        return false;
+    }
+}
+console.log(gerarId());
+console.log(urlValida("https://google.com"));
